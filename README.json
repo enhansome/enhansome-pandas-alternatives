@@ -1,0 +1,260 @@
+{
+  "items": [
+    {
+      "description": "Most of these libraries leverage Apache Arrow, \"a language-independent columnar memory format\". In other words, unlike good old files that are stored by rows, Apache Arrow storage is (also) column-based. This allows partitioning the data in chunks with a lot of clever tricks to enable greater compression (like storing sequences of repeated values) and faster queries (because each chunk also stores metadata like the min or max value).\nArrow offers Python bindings with its Python API, named . This library has modules to read and write data with either Arrow formats ( most notably, but also ) and other formats like and , but also data from cloud storage services and in a streaming fashion, which means data is processed in batches and does not need to be read wholly into memory. The module allows to perform basic data manipulation.\nOn its own, is rarely being used as a standalone library to perform data manipulation: usually more expressive and feature rich modules are built upon Arrow, especially on its fast C++ or Rust API interface. For this reason, most of the libraries listed here will display a general landing page and links to other languages APIs (mostly, Python and R). To be honest, the R interface has a backend for (the equivalent of in R), which makes its use more straightforward. Development for the R package is quite active!",
+      "items": [],
+      "title": "Almost Under Every Hood: Apache Arrow"
+    },
+    {
+      "description": "These libraries leverage Apache Arrow memory format to implement a parallelised and lazy execution engine. These are designed to take advantage of all the cores (and threads) of a machine, but are mainly geared towards dealing with in-memory data (i.e., with -like functions to read the data into the memory of your machine, instead of processing it on a cluster node).",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is another fairly recent DataFrame library. It offers both a SQL interface and a Python API: in other words, it can be used to query and Arrow's files, but also in-memory s using both SQL and a syntax closer to Python or . It supports window functions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T14:59:47Z",
+            "owner": "duckdb",
+            "repo": "duckdb",
+            "stars": 40199
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "Polars claims to be \"a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model\". It leverages (quasi-)lazy evaluation, uses all cores, has multithreaded operations and its query engine is written in Rust. has an expressive and high-level API that enables complex operations.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T16:37:19Z",
+            "owner": "pola-rs",
+            "repo": "polars",
+            "stars": 39343
+          }
+        }
+      ],
+      "title": "In-Memory DataFrame Libraries"
+    },
+    {
+      "description": "Compared to the libraries above, the following are meant to orchestrate data manipulation over clusters, i.e. distribute computing across several nodes (multiple machines with multiple processors) via a query execution engine. Since they need to plan execution preemptively, they can be slower than on a single-core machine.",
+      "items": [],
+      "title": "Distributed Computing Libraries"
+    },
+    {
+      "description": "These are the \"first generation\" of query planners that - as of now - are not built around columnar storage. Nonetheless, they represent the industry standard for distributed computing, and offer much more than data manipulation: they can even implement machine learning libraries to train models on the cluster. The downside is that moving from to, say, Apache's is not straightforward, as the API syntax can differ.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "the de-facto leader of distributed computing, now it is faring more competition. It offers , a machine learning library, as well as for \"graphs and graph-parallel computation\". Its Python API is .",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Scala",
+            "last_commit": "2026-08-13T03:54:42Z",
+            "owner": "apache",
+            "repo": "spark",
+            "stars": 43857
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is among the first distributed computing DataFrame libraries, alongside . does not only offer a distributed computing equivalent of , but also of and , so that \"you don't have to completely rewrite your code or retrain to scale up\", i.e. to run code on distributed clusters. A Dask DataFrame \"is a large parallel DataFrame composed of many smaller Pandas DataFrames, split along the index\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T22:03:29Z",
+            "owner": "dask",
+            "repo": "dask",
+            "stars": 13886
+          }
+        }
+      ],
+      "title": "Row-based storage"
+    },
+    {
+      "description": "The \"next generation\" of distributed query planners, that leverage columnar-based storage.",
+      "items": [],
+      "title": "Columnar Based Storage"
+    },
+    {
+      "description": "The following libraries leverage Ray as their default distributing engine. Ray is a Python API for building distributed applications (or, in technical jargon, \"scaling your code\") - i.e., it offers a series of functions to make your code run on multiple computing nodes. Using their own words, Ray is a \"cloud-provider independent compute launcher/autoscaler\", i.e. can be used seamlessly on cloud platforms such as GoogleCloud, Amazon AWS and the likes. Ray can be used to parallelise code - such as your own scripts - but also for every step of machine learning: hyperparameter tuning and model serving, for instance. The community has built many libraries to build a bridge between Ray and libraries such as XGBoost and scikit-learn, lightGBM, PyTorch Lightning, Ariflow, PyCaret and many more.\nRay itself has a Datasets \"loading and pre-processing library\" to load and exchange data in Ray libraries and applications. As explained in the blogpost of the official launch, however, \"Datasets is not intended as a replacement for generic data processing systems like Spark. Datasets is meant to be the last-mile bridge between ETL pipelines and distributed applications running on Ray\". Under the hood, though, Ray Datasets still leverages Apache Arrow to store in-memory tables in the distributed clusters.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "attempts to parallelize as much of the API as is possible. Its developers claim to \"have worked through a significant portion of the DataFrame API\" such much so that \"is intended to be used as a drop-in replacement for , such that even if the API is not yet parallelized, it is still defaulting to \". The library is currently under active development.",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Has excellent documentation, including explanatory articles on the differences between and",
+              "description": "or (also here).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-02-10T20:52:42Z",
+                "owner": "modin-project",
+                "repo": "modin",
+                "stars": 10392
+              }
+            }
+          ],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-10T20:52:42Z",
+            "owner": "modin-project",
+            "repo": "modin",
+            "stars": 10392
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is a \"unified framework for large-scale data computation\", like , but is tensor-based. It offers modules to scale numpy, pandas, scikit-learn and many other libraries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-01-02T10:00:14Z",
+            "owner": "mars-project",
+            "repo": "mars",
+            "stars": 2742
+          }
+        }
+      ],
+      "title": "Using Ray"
+    },
+    {
+      "description": "These are libraries that implement an abstract layer to make code easier to reuse across distributed frameworks, mainly and . It is to be noted that, on October 2021, adopted a -like API.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is a wrapper around that offers -like APIs. It is no longer developed, since adopted the API and was merged into .",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-03-20T15:33:34Z",
+            "owner": "databricks",
+            "repo": "koalas",
+            "stars": 3371
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is \"a unified interface for distributed computing that lets users execute Python, pandas, and SQL code on Spark and Dask without rewrites\". Simply put, adds an abstract layer that makes code portable between across differing computing frameworks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-19T21:49:03Z",
+            "owner": "fugue-project",
+            "repo": "fugue",
+            "stars": 2170
+          }
+        }
+      ],
+      "title": "Higher Level APIs"
+    },
+    {
+      "description": "Generally libraries work on CPUs and clusters are usually made up of CPUs. Apart from some notable exceptions, such as deep learning libraries like Tensorflow and PyTorch, usually regular libraries do not work on GPUs. This is due to major architectural differences across the two chips.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is a GPU dataframe library, which is part of the RapidsAI framework, that enables \"end-to-end data science and analytics pipelines entirely on GPUs\". There are many other libraries, like for machine learning, for spatial data manipulations, and more. is based on Apache Arrow, because the memory format is compatible with both CPU and GPU architecture.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-13T03:43:33Z",
+            "owner": "NVIDIA",
+            "repo": "cudf",
+            "stars": 9727
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is \"is a GPU accelerated [distributed] SQL engine built on top of the RAPIDS ecosystem\" and, as such, leverages Apache Arrow. Think of this as Apache on GPU.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-09-16T23:58:37Z",
+            "owner": "BlazingDB",
+            "repo": "blazingsql",
+            "stars": 2012
+          }
+        }
+      ],
+      "title": "GPU Libraries"
+    },
+    {
+      "description": "R has an amazing library called that enables easy data manipulation. is part of the so-called , a unified framework for data manipulation and visualisation.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "is a Python port of the astounding library in R, that achieves impressive results thanks to parallelisation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-07-27T14:12:01Z",
+            "owner": "h2oai",
+            "repo": "datatable",
+            "stars": 1876
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "was originally conceived as a extension of the well-known R package. The latter was a package to clean strings with ease in a R' or objects, but later incorporated new methods to make it more similar to . Adding and removing column, for example, is easier with the dedicated methods and , but also renaming column is easier with . This enables to run smoother pipelines that exploit method chaining.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T10:51:15Z",
+            "owner": "pyjanitor-devs",
+            "repo": "pyjanitor",
+            "stars": 1499
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "",
+          "description": "allows to query s using SQL syntax.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2024-07-24T14:51:15Z",
+            "owner": "yhat",
+            "repo": "pandasql",
+            "stars": 1349
+          }
+        }
+      ],
+      "title": "Other Libraries and Ports from R"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:15:56.669Z",
+    "original_repository": "baggiponte/awesome-pandas-alternatives",
+    "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
+    "enhanced_repository": "enhansome/enhansome-pandas-alternatives",
+    "enhanced_repository_description": null,
+    "title": "Awesome Pandas Alternatives with stars"
+  }
+}
