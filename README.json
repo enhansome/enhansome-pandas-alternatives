@@ -19,7 +19,7 @@
             "last_commit": "2026-08-14T15:37:29Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40249
+            "stars": 40268
           }
         },
         {
@@ -33,7 +33,7 @@
             "last_commit": "2026-08-14T14:54:56Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39362
+            "stars": 39365
           }
         }
       ],
@@ -58,7 +58,7 @@
             "last_commit": "2026-08-15T13:22:02Z",
             "owner": "apache",
             "repo": "spark",
-            "stars": 43819
+            "stars": 43825
           }
         },
         {
@@ -72,7 +72,7 @@
             "last_commit": "2026-08-10T22:03:29Z",
             "owner": "dask",
             "repo": "dask",
-            "stars": 13889
+            "stars": 13890
           }
         }
       ],
@@ -177,10 +177,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-15T22:53:39Z",
+            "last_commit": "2026-08-16T17:05:26Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9730
+            "stars": 9731
           }
         },
         {
@@ -250,7 +250,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T22:54:54.375Z",
+    "last_updated": "2026-08-16T22:54:03.682Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
     "enhanced_repository": "enhansome/enhansome-pandas-alternatives",
