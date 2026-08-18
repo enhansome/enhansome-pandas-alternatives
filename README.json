@@ -16,10 +16,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-17T13:56:55Z",
+            "last_commit": "2026-08-18T19:35:32Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40321
+            "stars": 40393
           }
         },
         {
@@ -30,10 +30,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-17T18:05:14Z",
+            "last_commit": "2026-08-18T16:29:50Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39376
+            "stars": 39382
           }
         }
       ],
@@ -55,10 +55,10 @@
           "repo_info": {
             "archived": false,
             "language": "Scala",
-            "last_commit": "2026-08-17T22:15:28Z",
+            "last_commit": "2026-08-18T21:12:47Z",
             "owner": "apache",
             "repo": "spark",
-            "stars": 43825
+            "stars": 43833
           }
         },
         {
@@ -177,7 +177,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-17T22:56:41Z",
+            "last_commit": "2026-08-18T22:46:56Z",
             "owner": "NVIDIA",
             "repo": "cudf",
             "stars": 9729
@@ -225,7 +225,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T10:48:24Z",
+            "last_commit": "2026-08-18T12:56:27Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
             "stars": 1499
@@ -250,7 +250,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T22:56:42.544Z",
+    "last_updated": "2026-08-18T22:56:50.349Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
     "enhanced_repository": "enhansome/enhansome-pandas-alternatives",
