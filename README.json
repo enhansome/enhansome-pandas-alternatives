@@ -15,7 +15,7 @@
             "last_commit": "2026-08-20T18:48:29Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40475
+            "stars": 40519
           }
         },
         {
@@ -27,10 +27,10 @@
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-20T15:37:45Z",
+            "last_commit": "2026-08-21T14:14:37Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39413
+            "stars": 39433
           }
         }
       ],
@@ -50,10 +50,10 @@
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-20T21:04:26Z",
+                "last_commit": "2026-08-21T20:20:18Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43845
+                "stars": 43850
               }
             },
             {
@@ -68,7 +68,7 @@
                 "last_commit": "2026-08-17T14:33:18Z",
                 "owner": "dask",
                 "repo": "dask",
-                "stars": 13893
+                "stars": 13894
               }
             }
           ],
@@ -97,7 +97,7 @@
                         "last_commit": "2026-02-10T20:52:42Z",
                         "owner": "modin-project",
                         "repo": "modin",
-                        "stars": 10390
+                        "stars": 10389
                       }
                     }
                   ],
@@ -108,7 +108,7 @@
                     "last_commit": "2026-02-10T20:52:42Z",
                     "owner": "modin-project",
                     "repo": "modin",
-                    "stars": 10390
+                    "stars": 10389
                   }
                 },
                 {
@@ -123,7 +123,7 @@
                     "last_commit": "2024-01-02T10:00:14Z",
                     "owner": "mars-project",
                     "repo": "mars",
-                    "stars": 2741
+                    "stars": 2742
                   }
                 }
               ],
@@ -188,10 +188,10 @@
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-20T21:52:29Z",
+            "last_commit": "2026-08-21T22:37:16Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9731
+            "stars": 9733
           }
         },
         {
@@ -239,10 +239,10 @@
             "archived": false,
             "id": 123836190,
             "language": "Python",
-            "last_commit": "2026-08-20T22:56:55Z",
+            "last_commit": "2026-08-21T22:35:45Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
-            "stars": 1498
+            "stars": 1499
           }
         },
         {
@@ -265,7 +265,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T22:59:46.866Z",
+    "last_updated": "2026-08-21T22:56:44.804Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_id": 430481240,
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
