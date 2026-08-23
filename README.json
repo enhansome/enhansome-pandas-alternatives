@@ -15,7 +15,7 @@
             "last_commit": "2026-08-22T15:02:13Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40534
+            "stars": 40550
           }
         },
         {
@@ -27,10 +27,10 @@
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-22T11:38:14Z",
+            "last_commit": "2026-08-23T20:08:24Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39444
+            "stars": 39459
           }
         }
       ],
@@ -50,10 +50,10 @@
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-22T22:39:53Z",
+                "last_commit": "2026-08-23T13:41:26Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43859
+                "stars": 43865
               }
             },
             {
@@ -188,7 +188,7 @@
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-22T22:02:44Z",
+            "last_commit": "2026-08-23T20:01:37Z",
             "owner": "NVIDIA",
             "repo": "cudf",
             "stars": 9733
@@ -265,7 +265,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T22:55:16.444Z",
+    "last_updated": "2026-08-23T22:54:46.809Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_id": 430481240,
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
