@@ -5,32 +5,32 @@
       "items": [
         {
           "node_type": "item",
-          "title": "",
+          "title": "duckdb",
           "description": "is another fairly recent DataFrame library. It offers both a SQL interface and a Python API: in other words, it can be used to query and Arrow's files, but also in-memory s using both SQL and a syntax closer to Python or . It supports window functions.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 138754790,
             "language": "C++",
-            "last_commit": "2026-08-22T15:02:13Z",
+            "last_commit": "2026-08-24T14:31:09Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40550
+            "stars": 40567
           }
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "polars",
           "description": "Polars claims to be \"a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model\". It leverages (quasi-)lazy evaluation, uses all cores, has multithreaded operations and its query engine is written in Rust. has an expressive and high-level API that enables complex operations.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-23T20:08:24Z",
+            "last_commit": "2026-08-24T14:19:08Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39459
+            "stars": 39468
           }
         }
       ],
@@ -43,22 +43,22 @@
           "children": [
             {
               "node_type": "item",
-              "title": "",
+              "title": "spark",
               "description": "the de-facto leader of distributed computing, now it is faring more competition. It offers , a machine learning library, as well as for \"graphs and graph-parallel computation\". Its Python API is .",
               "children": [],
               "repo_info": {
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-23T13:41:26Z",
+                "last_commit": "2026-08-24T14:41:03Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43865
+                "stars": 43867
               }
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "dask",
               "description": "is among the first distributed computing DataFrame libraries, alongside . does not only offer a distributed computing equivalent of , but also of and , so that \"you don't have to completely rewrite your code or retrain to scale up\", i.e. to run code on distributed clusters. A Dask DataFrame \"is a large parallel DataFrame composed of many smaller Pandas DataFrames, split along the index\".",
               "children": [],
               "repo_info": {
@@ -82,7 +82,45 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "",
+                  "title": "datafusion",
+                  "description": "this is Arrow's query engine, written in the Rust programming language. Much like , offers both a SQL and Python-like API interface. Much like , \"allows you to build a plan through SQL or a DataFrame API against in-memory data, parquet or CSV files, run it in a multi-threaded environment, and obtain the result back in Python\".",
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "datafusion",
+                      "description": "is the distributed query engine, written in Rust, built on top of . Here is a comparison between and .",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 358917318,
+                        "language": "Rust",
+                        "last_commit": "2026-08-24T14:02:44Z",
+                        "owner": "apache",
+                        "repo": "datafusion",
+                        "stars": 9185
+                      }
+                    }
+                  ],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 358917318,
+                    "language": "Rust",
+                    "last_commit": "2026-08-24T14:02:44Z",
+                    "owner": "apache",
+                    "repo": "datafusion",
+                    "stars": 9185
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Using Rust"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "modin",
                   "description": "attempts to parallelize as much of the API as is possible. Its developers claim to \"have worked through a significant portion of the DataFrame API\" such much so that \"is intended to be used as a drop-in replacement for , such that even if the API is not yet parallelized, it is still defaulting to \". The library is currently under active development.",
                   "children": [
                     {
@@ -113,7 +151,7 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "",
+                  "title": "mars",
                   "description": "is a \"unified framework for large-scale data computation\", like , but is tensor-based. It offers modules to scale numpy, pandas, scikit-learn and many other libraries.",
                   "children": [],
                   "repo_info": {
@@ -140,7 +178,7 @@
           "children": [
             {
               "node_type": "item",
-              "title": "",
+              "title": "koalas",
               "description": "is a wrapper around that offers -like APIs. It is no longer developed, since adopted the API and was merged into .",
               "children": [],
               "repo_info": {
@@ -155,7 +193,7 @@
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "fugue",
               "description": "is \"a unified interface for distributed computing that lets users execute Python, pandas, and SQL code on Spark and Dask without rewrites\". Simply put, adds an abstract layer that makes code portable between across differing computing frameworks.",
               "children": [],
               "repo_info": {
@@ -181,22 +219,22 @@
       "items": [
         {
           "node_type": "item",
-          "title": "",
+          "title": "cudf",
           "description": "is a GPU dataframe library, which is part of the RapidsAI framework, that enables \"end-to-end data science and analytics pipelines entirely on GPUs\". There are many other libraries, like for machine learning, for spatial data manipulations, and more. is based on Apache Arrow, because the memory format is compatible with both CPU and GPU architecture.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-23T20:01:37Z",
+            "last_commit": "2026-08-24T14:14:45Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9733
+            "stars": 9732
           }
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "blazingsql",
           "description": "is \"is a GPU accelerated [distributed] SQL engine built on top of the RAPIDS ecosystem\" and, as such, leverages Apache Arrow. Think of this as Apache on GPU.",
           "children": [],
           "repo_info": {
@@ -217,7 +255,7 @@
       "items": [
         {
           "node_type": "item",
-          "title": "",
+          "title": "datatable",
           "description": "is a Python port of the astounding library in R, that achieves impressive results thanks to parallelisation.",
           "children": [],
           "repo_info": {
@@ -232,22 +270,22 @@
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "pyjanitor",
           "description": "was originally conceived as a extension of the well-known R package. The latter was a package to clean strings with ease in a R' or objects, but later incorporated new methods to make it more similar to . Adding and removing column, for example, is easier with the dedicated methods and , but also renaming column is easier with . This enables to run smoother pipelines that exploit method chaining.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 123836190,
             "language": "Python",
-            "last_commit": "2026-08-22T08:02:12Z",
+            "last_commit": "2026-08-24T09:53:59Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
-            "stars": 1499
+            "stars": 1498
           }
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "pandasql",
           "description": "allows to query s using SQL syntax.",
           "children": [],
           "repo_info": {
@@ -265,7 +303,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T22:54:46.809Z",
+    "last_updated": "2026-08-24T14:50:19.592Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_id": 430481240,
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
