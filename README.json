@@ -12,10 +12,10 @@
             "archived": false,
             "id": 138754790,
             "language": "C++",
-            "last_commit": "2026-08-25T22:27:44Z",
+            "last_commit": "2026-08-26T12:53:33Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40614
+            "stars": 40686
           }
         },
         {
@@ -27,10 +27,10 @@
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-25T14:16:04Z",
+            "last_commit": "2026-08-26T17:14:39Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39485
+            "stars": 39505
           }
         }
       ],
@@ -50,10 +50,10 @@
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-25T22:26:32Z",
+                "last_commit": "2026-08-27T02:23:56Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43875
+                "stars": 43881
               }
             },
             {
@@ -94,10 +94,10 @@
                         "archived": false,
                         "id": 358917318,
                         "language": "Rust",
-                        "last_commit": "2026-08-25T21:33:22Z",
+                        "last_commit": "2026-08-27T03:30:24Z",
                         "owner": "apache",
                         "repo": "datafusion",
-                        "stars": 9193
+                        "stars": 9204
                       }
                     }
                   ],
@@ -105,10 +105,10 @@
                     "archived": false,
                     "id": 358917318,
                     "language": "Rust",
-                    "last_commit": "2026-08-25T21:33:22Z",
+                    "last_commit": "2026-08-27T03:30:24Z",
                     "owner": "apache",
                     "repo": "datafusion",
-                    "stars": 9193
+                    "stars": 9204
                   }
                 }
               ],
@@ -188,7 +188,7 @@
                 "last_commit": "2024-03-20T15:33:34Z",
                 "owner": "databricks",
                 "repo": "koalas",
-                "stars": 3371
+                "stars": 3372
               }
             },
             {
@@ -226,10 +226,10 @@
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-25T22:58:34Z",
+            "last_commit": "2026-08-27T02:32:45Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9733
+            "stars": 9734
           }
         },
         {
@@ -277,10 +277,10 @@
             "archived": false,
             "id": 123836190,
             "language": "Python",
-            "last_commit": "2026-08-24T09:53:59Z",
+            "last_commit": "2026-08-26T22:07:24Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
-            "stars": 1499
+            "stars": 1498
           }
         },
         {
@@ -303,7 +303,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T22:59:31.125Z",
+    "last_updated": "2026-08-27T03:32:27.207Z",
     "original_repository": "baggiponte/awesome-pandas-alternatives",
     "original_repository_id": 430481240,
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
