@@ -12,10 +12,10 @@
             "archived": false,
             "id": 138754790,
             "language": "C++",
-            "last_commit": "2026-08-26T12:53:33Z",
+            "last_commit": "2026-08-27T11:35:52Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40686
+            "stars": 40711
           }
         },
         {
@@ -27,10 +27,10 @@
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-26T17:14:39Z",
+            "last_commit": "2026-08-27T11:51:28Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39505
+            "stars": 39512
           }
         }
       ],
@@ -50,10 +50,10 @@
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-27T02:23:56Z",
+                "last_commit": "2026-08-27T07:13:18Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43881
+                "stars": 43887
               }
             },
             {
@@ -97,7 +97,7 @@
                         "last_commit": "2026-08-27T03:30:24Z",
                         "owner": "apache",
                         "repo": "datafusion",
-                        "stars": 9204
+                        "stars": 9207
                       }
                     }
                   ],
@@ -108,7 +108,7 @@
                     "last_commit": "2026-08-27T03:30:24Z",
                     "owner": "apache",
                     "repo": "datafusion",
-                    "stars": 9204
+                    "stars": 9207
                   }
                 }
               ],
@@ -135,7 +135,7 @@
                         "last_commit": "2026-02-10T20:52:42Z",
                         "owner": "modin-project",
                         "repo": "modin",
-                        "stars": 10390
+                        "stars": 10391
                       }
                     }
                   ],
@@ -146,7 +146,7 @@
                     "last_commit": "2026-02-10T20:52:42Z",
                     "owner": "modin-project",
                     "repo": "modin",
-                    "stars": 10390
+                    "stars": 10391
                   }
                 },
                 {
@@ -226,10 +226,10 @@
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-27T02:32:45Z",
+            "last_commit": "2026-08-27T09:58:06Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9734
+            "stars": 9735
           }
         },
         {
@@ -277,7 +277,7 @@
             "archived": false,
             "id": 123836190,
             "language": "Python",
-            "last_commit": "2026-08-26T22:07:24Z",
+            "last_commit": "2026-08-27T05:42:10Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
             "stars": 1498
@@ -303,9 +303,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T03:32:27.207Z",
-    "original_repository": "baggiponte/awesome-pandas-alternatives",
-    "original_repository_id": 430481240,
+    "last_updated": "2026-08-27T11:55:59.473Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 430481240,
+      "language": null,
+      "last_commit": "2023-01-12T16:18:24Z",
+      "owner": "baggiponte",
+      "repo": "awesome-pandas-alternatives",
+      "stars": 56
+    },
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
     "enhanced_repository": "enhansome/enhansome-pandas-alternatives",
     "enhanced_repository_description": null,
