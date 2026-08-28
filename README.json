@@ -12,11 +12,12 @@
             "archived": false,
             "id": 138754790,
             "language": "C++",
-            "last_commit": "2026-08-27T11:35:52Z",
+            "last_commit": "2026-08-27T18:40:30Z",
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40711
-          }
+            "stars": 40752
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         },
         {
           "node_type": "item",
@@ -27,11 +28,12 @@
             "archived": false,
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-27T11:51:28Z",
+            "last_commit": "2026-08-27T14:00:46Z",
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39512
-          }
+            "stars": 39524
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         }
       ],
       "title": "In-Memory DataFrame Libraries"
@@ -50,11 +52,12 @@
                 "archived": false,
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-27T07:13:18Z",
+                "last_commit": "2026-08-28T05:54:38Z",
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43887
-              }
+                "stars": 43894
+              },
+              "first_seen": "2026-08-28T06:18:17.718Z"
             },
             {
               "node_type": "item",
@@ -68,8 +71,9 @@
                 "last_commit": "2026-08-24T18:46:39Z",
                 "owner": "dask",
                 "repo": "dask",
-                "stars": 13897
-              }
+                "stars": 13898
+              },
+              "first_seen": "2026-08-28T06:18:17.718Z"
             }
           ],
           "description": "These are the \"first generation\" of query planners that - as of now - are not built around columnar storage. Nonetheless, they represent the industry standard for distributed computing, and offer much more than data manipulation: they can even implement machine learning libraries to train models on the cluster. The downside is that moving from to, say, Apache's is not straightforward, as the API syntax can differ.",
@@ -94,22 +98,24 @@
                         "archived": false,
                         "id": 358917318,
                         "language": "Rust",
-                        "last_commit": "2026-08-27T03:30:24Z",
+                        "last_commit": "2026-08-28T03:44:34Z",
                         "owner": "apache",
                         "repo": "datafusion",
-                        "stars": 9207
-                      }
+                        "stars": 9211
+                      },
+                      "first_seen": "2026-08-28T06:18:17.718Z"
                     }
                   ],
                   "repo_info": {
                     "archived": false,
                     "id": 358917318,
                     "language": "Rust",
-                    "last_commit": "2026-08-27T03:30:24Z",
+                    "last_commit": "2026-08-28T03:44:34Z",
                     "owner": "apache",
                     "repo": "datafusion",
-                    "stars": 9207
-                  }
+                    "stars": 9211
+                  },
+                  "first_seen": "2026-08-28T06:18:17.718Z"
                 }
               ],
               "description": null,
@@ -135,8 +141,9 @@
                         "last_commit": "2026-02-10T20:52:42Z",
                         "owner": "modin-project",
                         "repo": "modin",
-                        "stars": 10391
-                      }
+                        "stars": 10392
+                      },
+                      "first_seen": "2026-08-28T06:18:17.718Z"
                     }
                   ],
                   "repo_info": {
@@ -146,8 +153,9 @@
                     "last_commit": "2026-02-10T20:52:42Z",
                     "owner": "modin-project",
                     "repo": "modin",
-                    "stars": 10391
-                  }
+                    "stars": 10392
+                  },
+                  "first_seen": "2026-08-28T06:18:17.718Z"
                 },
                 {
                   "node_type": "item",
@@ -162,7 +170,8 @@
                     "owner": "mars-project",
                     "repo": "mars",
                     "stars": 2742
-                  }
+                  },
+                  "first_seen": "2026-08-28T06:18:17.718Z"
                 }
               ],
               "description": "The following libraries leverage Ray as their default distributing engine. Ray is a Python API for building distributed applications (or, in technical jargon, \"scaling your code\") - i.e., it offers a series of functions to make your code run on multiple computing nodes. Using their own words, Ray is a \"cloud-provider independent compute launcher/autoscaler\", i.e. can be used seamlessly on cloud platforms such as GoogleCloud, Amazon AWS and the likes. Ray can be used to parallelise code - such as your own scripts - but also for every step of machine learning: hyperparameter tuning and model serving, for instance. The community has built many libraries to build a bridge between Ray and libraries such as XGBoost and scikit-learn, lightGBM, PyTorch Lightning, Ariflow, PyCaret and many more.\nRay itself has a Datasets \"loading and pre-processing library\" to load and exchange data in Ray libraries and applications. As explained in the blogpost of the official launch, however, \"Datasets is not intended as a replacement for generic data processing systems like Spark. Datasets is meant to be the last-mile bridge between ETL pipelines and distributed applications running on Ray\". Under the hood, though, Ray Datasets still leverages Apache Arrow to store in-memory tables in the distributed clusters.",
@@ -189,7 +198,8 @@
                 "owner": "databricks",
                 "repo": "koalas",
                 "stars": 3372
-              }
+              },
+              "first_seen": "2026-08-28T06:18:17.718Z"
             },
             {
               "node_type": "item",
@@ -204,7 +214,8 @@
                 "owner": "fugue-project",
                 "repo": "fugue",
                 "stars": 2169
-              }
+              },
+              "first_seen": "2026-08-28T06:18:17.718Z"
             }
           ],
           "description": "These are libraries that implement an abstract layer to make code easier to reuse across distributed frameworks, mainly and . It is to be noted that, on October 2021, adopted a -like API.",
@@ -226,11 +237,12 @@
             "archived": false,
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-27T09:58:06Z",
+            "last_commit": "2026-08-28T03:00:34Z",
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9735
-          }
+            "stars": 9737
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         },
         {
           "node_type": "item",
@@ -245,7 +257,8 @@
             "owner": "BlazingDB",
             "repo": "blazingsql",
             "stars": 2011
-          }
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         }
       ],
       "title": "GPU Libraries"
@@ -266,7 +279,8 @@
             "owner": "h2oai",
             "repo": "datatable",
             "stars": 1876
-          }
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         },
         {
           "node_type": "item",
@@ -277,11 +291,12 @@
             "archived": false,
             "id": 123836190,
             "language": "Python",
-            "last_commit": "2026-08-27T05:42:10Z",
+            "last_commit": "2026-08-28T04:35:32Z",
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
             "stars": 1498
-          }
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         },
         {
           "node_type": "item",
@@ -296,14 +311,15 @@
             "owner": "yhat",
             "repo": "pandasql",
             "stars": 1348
-          }
+          },
+          "first_seen": "2026-08-28T06:18:17.718Z"
         }
       ],
       "title": "Other Libraries and Ports from R"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:55:59.473Z",
+    "last_updated": "2026-08-28T06:18:17.718Z",
     "original_repository_info": {
       "archived": false,
       "id": 430481240,
