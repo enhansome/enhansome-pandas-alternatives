@@ -10,12 +10,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "DuckDB is an analytical in-process SQL database management system",
+            "homepage": "http://www.duckdb.org",
             "id": 138754790,
             "language": "C++",
-            "last_commit": "2026-08-27T18:40:30Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T18:28:20Z",
+            "open_issues": 823,
             "owner": "duckdb",
             "repo": "duckdb",
-            "stars": 40752
+            "stars": 40782,
+            "topics": [
+              "analytics",
+              "database",
+              "embedded-database",
+              "olap",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         },
@@ -26,12 +37,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+            "homepage": "https://docs.pola.rs",
             "id": 263727855,
             "language": "Rust",
-            "last_commit": "2026-08-27T14:00:46Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T19:38:14Z",
+            "open_issues": 2870,
             "owner": "pola-rs",
             "repo": "polars",
-            "stars": 39524
+            "stars": 39536,
+            "topics": [
+              "arrow",
+              "dataframe",
+              "dataframe-library",
+              "dataframes",
+              "out-of-core",
+              "polars",
+              "python",
+              "rust"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         }
@@ -50,12 +75,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Apache Spark - A unified analytics engine for large-scale data processing",
+                "homepage": "https://spark.apache.org/",
                 "id": 17165658,
                 "language": "Scala",
-                "last_commit": "2026-08-28T05:54:38Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T00:45:28Z",
+                "open_issues": 497,
                 "owner": "apache",
                 "repo": "spark",
-                "stars": 43894
+                "stars": 43900,
+                "topics": [
+                  "big-data",
+                  "java",
+                  "jdbc",
+                  "python",
+                  "r",
+                  "scala",
+                  "spark",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T06:18:17.718Z"
             },
@@ -66,12 +105,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Parallel computing with task scheduling",
+                "homepage": "https://dask.org",
                 "id": 28782747,
                 "language": "Python",
+                "license": "BSD-3-Clause",
                 "last_commit": "2026-08-24T18:46:39Z",
+                "open_issues": 1317,
                 "owner": "dask",
                 "repo": "dask",
-                "stars": 13898
+                "stars": 13901,
+                "topics": [
+                  "dask",
+                  "numpy",
+                  "pandas",
+                  "pydata",
+                  "python",
+                  "scikit-learn",
+                  "scipy"
+                ]
               },
               "first_seen": "2026-08-28T06:18:17.718Z"
             }
@@ -96,24 +148,54 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Apache DataFusion SQL Query Engine",
+                        "homepage": "https://datafusion.apache.org/",
                         "id": 358917318,
                         "language": "Rust",
-                        "last_commit": "2026-08-28T03:44:34Z",
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-08-29T03:46:26Z",
+                        "open_issues": 2114,
                         "owner": "apache",
                         "repo": "datafusion",
-                        "stars": 9211
+                        "stars": 9218,
+                        "topics": [
+                          "arrow",
+                          "big-data",
+                          "dataframe",
+                          "datafusion",
+                          "olap",
+                          "python",
+                          "query-engine",
+                          "rust",
+                          "sql"
+                        ]
                       },
                       "first_seen": "2026-08-28T06:18:17.718Z"
                     }
                   ],
                   "repo_info": {
                     "archived": false,
+                    "description": "Apache DataFusion SQL Query Engine",
+                    "homepage": "https://datafusion.apache.org/",
                     "id": 358917318,
                     "language": "Rust",
-                    "last_commit": "2026-08-28T03:44:34Z",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-08-29T03:46:26Z",
+                    "open_issues": 2114,
                     "owner": "apache",
                     "repo": "datafusion",
-                    "stars": 9211
+                    "stars": 9218,
+                    "topics": [
+                      "arrow",
+                      "big-data",
+                      "dataframe",
+                      "datafusion",
+                      "olap",
+                      "python",
+                      "query-engine",
+                      "rust",
+                      "sql"
+                    ]
                   },
                   "first_seen": "2026-08-28T06:18:17.718Z"
                 }
@@ -136,24 +218,54 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Modin: Scale your Pandas workflows by changing a single line of code",
+                        "homepage": "http://modin.readthedocs.io",
                         "id": 138224079,
                         "language": "Python",
+                        "license": "Apache-2.0",
                         "last_commit": "2026-02-10T20:52:42Z",
+                        "open_issues": 715,
                         "owner": "modin-project",
                         "repo": "modin",
-                        "stars": 10392
+                        "stars": 10392,
+                        "topics": [
+                          "analytics",
+                          "data-science",
+                          "dataframe",
+                          "datascience",
+                          "distributed",
+                          "modin",
+                          "pandas",
+                          "python",
+                          "sql"
+                        ]
                       },
                       "first_seen": "2026-08-28T06:18:17.718Z"
                     }
                   ],
                   "repo_info": {
                     "archived": false,
+                    "description": "Modin: Scale your Pandas workflows by changing a single line of code",
+                    "homepage": "http://modin.readthedocs.io",
                     "id": 138224079,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-02-10T20:52:42Z",
+                    "open_issues": 715,
                     "owner": "modin-project",
                     "repo": "modin",
-                    "stars": 10392
+                    "stars": 10392,
+                    "topics": [
+                      "analytics",
+                      "data-science",
+                      "dataframe",
+                      "datascience",
+                      "distributed",
+                      "modin",
+                      "pandas",
+                      "python",
+                      "sql"
+                    ]
                   },
                   "first_seen": "2026-08-28T06:18:17.718Z"
                 },
@@ -164,12 +276,33 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Mars is a tensor-based unified framework for large-scale data computation which scales numpy, pandas, scikit-learn and Python functions.",
+                    "homepage": "https://mars-project.readthedocs.io",
                     "id": 160543708,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2024-01-02T10:00:14Z",
+                    "open_issues": 215,
                     "owner": "mars-project",
                     "repo": "mars",
-                    "stars": 2742
+                    "stars": 2742,
+                    "topics": [
+                      "dask",
+                      "dataframe",
+                      "joblib",
+                      "lightgbm",
+                      "machine-learning",
+                      "numpy",
+                      "pandas",
+                      "python",
+                      "pytorch",
+                      "ray",
+                      "scikit-learn",
+                      "statsmodels",
+                      "tensor",
+                      "tensorflow",
+                      "xgboost"
+                    ]
                   },
                   "first_seen": "2026-08-28T06:18:17.718Z"
                 }
@@ -192,12 +325,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Koalas: pandas API on Apache Spark",
+                "homepage": null,
                 "id": 164026325,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-03-20T15:33:34Z",
+                "open_issues": 108,
                 "owner": "databricks",
                 "repo": "koalas",
-                "stars": 3372
+                "stars": 3373,
+                "topics": [
+                  "big-data",
+                  "data-science",
+                  "dataframe",
+                  "mlflow",
+                  "pandas",
+                  "pydata",
+                  "spark"
+                ]
               },
               "first_seen": "2026-08-28T06:18:17.718Z"
             },
@@ -208,12 +354,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.",
+                "homepage": "https://fugue-tutorials.readthedocs.io/",
                 "id": 249764216,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-19T21:49:03Z",
+                "open_issues": 53,
                 "owner": "fugue-project",
                 "repo": "fugue",
-                "stars": 2169
+                "stars": 2169,
+                "topics": [
+                  "dask",
+                  "data-practitioners",
+                  "distributed",
+                  "distributed-computing",
+                  "distributed-systems",
+                  "machine-learning",
+                  "pandas",
+                  "spark",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T06:18:17.718Z"
             }
@@ -235,12 +396,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "cuDF - GPU DataFrame Library ",
+            "homepage": "https://docs.nvidia.com/cudf/",
             "id": 90506918,
             "language": "C++",
-            "last_commit": "2026-08-28T03:00:34Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T03:48:17Z",
+            "open_issues": 1299,
             "owner": "NVIDIA",
             "repo": "cudf",
-            "stars": 9737
+            "stars": 9739,
+            "topics": [
+              "arrow",
+              "cpp",
+              "cuda",
+              "cudf",
+              "dask",
+              "data-analysis",
+              "data-science",
+              "dataframe",
+              "gpu",
+              "pandas",
+              "pydata",
+              "python",
+              "rapids"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         },
@@ -251,12 +431,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BlazingSQL is a lightweight, GPU accelerated, SQL engine for Python. Built on RAPIDS cuDF.",
+            "homepage": "https://blazingsql.com",
             "id": 150149024,
             "language": "C++",
+            "license": "Apache-2.0",
             "last_commit": "2022-09-16T23:58:37Z",
+            "open_issues": 146,
             "owner": "BlazingDB",
             "repo": "blazingsql",
-            "stars": 2011
+            "stars": 2011,
+            "topics": [
+              "arrow",
+              "artificial-intelligence",
+              "blazingsql",
+              "conda-environment",
+              "cudf",
+              "data-science",
+              "gpu",
+              "gpu-acceleration",
+              "gpu-dataframes",
+              "machine-learning",
+              "machine-learning-workflow",
+              "python",
+              "rapids",
+              "rapidsai",
+              "sql",
+              "sql-engine"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         }
@@ -273,12 +475,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Python package for manipulating 2-dimensional tabular data structures",
+            "homepage": "https://datatable.readthedocs.io",
             "id": 83748372,
             "language": "C++",
+            "license": "MPL-2.0",
             "last_commit": "2026-07-27T14:12:01Z",
+            "open_issues": 183,
             "owner": "h2oai",
             "repo": "datatable",
-            "stars": 1876
+            "stars": 1876,
+            "topics": [
+              "data-analysis",
+              "data-structure",
+              "fedramp",
+              "ftrl",
+              "performance",
+              "python"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         },
@@ -289,12 +503,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Clean APIs for data cleaning. Python implementation of R package Janitor",
+            "homepage": "https://pyjanitor-devs.github.io/pyjanitor",
             "id": 123836190,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-28T04:35:32Z",
+            "open_issues": 154,
             "owner": "pyjanitor-devs",
             "repo": "pyjanitor",
-            "stars": 1498
+            "stars": 1498,
+            "topics": [
+              "cleaning-data",
+              "data",
+              "data-engineering",
+              "dataframe",
+              "hacktoberfest",
+              "pandas",
+              "pydata"
+            ]
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         },
@@ -305,12 +532,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "sqldf for pandas",
+            "homepage": null,
             "id": 8259891,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2024-07-24T14:51:15Z",
+            "open_issues": 59,
             "owner": "yhat",
             "repo": "pandasql",
-            "stars": 1348
+            "stars": 1347,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:18:17.718Z"
         }
@@ -319,15 +551,35 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T06:18:17.718Z",
+    "last_updated": "2026-08-29T03:50:43.097Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Awesome list of alternative dataframe libraries in Python.",
+      "homepage": null,
       "id": 430481240,
       "language": null,
+      "license": "MIT",
       "last_commit": "2023-01-12T16:18:24Z",
+      "open_issues": 0,
       "owner": "baggiponte",
       "repo": "awesome-pandas-alternatives",
-      "stars": 56
+      "stars": 56,
+      "topics": [
+        "apache-arrow",
+        "arrow",
+        "awesome",
+        "awesome-list",
+        "blazingsql",
+        "cudf",
+        "dask",
+        "datafusion",
+        "datatable",
+        "pandas",
+        "polars",
+        "python",
+        "rapidsai",
+        "sql"
+      ]
     },
     "original_repository_sha": "a2f4ee109fc8416033e6673547f0cb4bf54e547b",
     "enhanced_repository": "enhansome/enhansome-pandas-alternatives",
